@@ -1,0 +1,8 @@
+E:\mayıs\110519\Serialization\Object\bin\Debug\netstandard2.0\Modal.deps.json
+E:\mayıs\110519\Serialization\Object\bin\Debug\netstandard2.0\Modal.dll
+E:\mayıs\110519\Serialization\Object\bin\Debug\netstandard2.0\Modal.pdb
+E:\mayıs\110519\Serialization\Object\obj\Debug\netstandard2.0\Modal.csproj.CoreCompileInputs.cache
+E:\mayıs\110519\Serialization\Object\obj\Debug\netstandard2.0\Modal.AssemblyInfoInputs.cache
+E:\mayıs\110519\Serialization\Object\obj\Debug\netstandard2.0\Modal.AssemblyInfo.cs
+E:\mayıs\110519\Serialization\Object\obj\Debug\netstandard2.0\Modal.dll
+E:\mayıs\110519\Serialization\Object\obj\Debug\netstandard2.0\Modal.pdb
