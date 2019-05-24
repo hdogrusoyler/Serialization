@@ -25,13 +25,13 @@ namespace UnitTestProject
 
             try
             {
-                var a = _csvSerialize.Object.CsvToObjDeSerialize("E:\\mayýs\\110519\\HW05\\sample_data.csv");
+                var a = _csvSerialize.Object.CsvToObjDeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.csv");
 
                 a = a.Where(c => c.CityName == "Antalya").ToList();
 
                 var b = _objConvertor.Object.ObjConvertCsvToXml(a);
 
-                _xmlSerialize.Object.XmlSerialize("E:\\mayýs\\110519\\HW05\\CsvToXml.xml", b);
+                _xmlSerialize.Object.XmlSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToXml.xml", b);
             }
             catch (Exception e)
             {
@@ -49,11 +49,11 @@ namespace UnitTestProject
 
             try
             {
-                var a = _csvSerialize.Object.CsvToObjDeSerialize("E:\\mayýs\\110519\\HW05\\sample_data.csv");
+                var a = _csvSerialize.Object.CsvToObjDeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.csv");
 
                 a = a.OrderBy(d => d.CityName).ThenBy(f => f.DistrictName).ToList();
 
-                _csvSerialize.Object.ObjToCsvSerialize("E:\\mayýs\\110519\\HW05\\CsvToCsv.csv", a);
+                _csvSerialize.Object.ObjToCsvSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToCsv.csv", a);
             }
             catch (Exception e)
             {
@@ -73,7 +73,7 @@ namespace UnitTestProject
 
             try
             {
-                var a = _xmlSerialize.Object.XmlDeSerialize("E:\\mayýs\\110519\\HW05\\sample_data.xml");
+                var a = _xmlSerialize.Object.XmlDeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.xml");
 
                 a.City = a.City.Where(c => c.name == "Ankara").ToArray();
                 foreach (AddressInfoCity aic in a.City)
@@ -86,7 +86,7 @@ namespace UnitTestProject
 
                 var b = _objConvertor.Object.ObjConvertXmlToCsv(a);
 
-                _csvSerialize.Object.ObjToCsvSerialize("E:\\mayýs\\110519\\HW05\\XmlToCsv.csv", b);
+                _csvSerialize.Object.ObjToCsvSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\XmlToCsv.csv", b);
             }
             catch (Exception e)
             {
